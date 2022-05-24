@@ -1,0 +1,6 @@
+spring:
+  application:
+    name:ndrp-conta-servico
+  cloud:
+    config:
+      url: ${CONFIG_SERVER:http://localhost:8888}
